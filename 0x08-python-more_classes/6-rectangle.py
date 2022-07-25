@@ -94,7 +94,7 @@ class Rectangle:
         '''method: __repr__ create new object
         '''
         ret_str = "Rectangle(" + str(self.__width) + ","
-	ret_str += str(self.__height) + ")"
+        ret_str += str(self.__height) + ")"
         return ret_str
 
     def __del__(self):
